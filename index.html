@@ -12,41 +12,126 @@ initial-scale=1.0">
 <body>
     <header>
         <h1>Cecilia Ortiz</h1>
+        <!-- Aquí una foto -->
+        <img src="https://i.pinimg.com/564x/94/d9/d1/94d9d1c5602473064ee0a3e708d37dbe.jpg" alt="Foto de prueba"
+            width="150" height="150" />
         <p>Estudiante | ceelorti@espol.edu.ec </p>
+
     </header>
     <nav>
         <ul>
             <li><a href="#resumen">Resumen</a></li>
             <li><a href="#experiencia">Experiencia</a></li>
             <li><a href="#educacion">Educación</a></li>
-            <li><a href="#habilidades">Habilidades</a></li>
             <li><a href="#proyectos">Proyectos</a></li>
-            
+            <li><a href="#referencias">Referencias</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+
         </ul>
     </nav>
     <main>
         <section id="resumen">
             <h2>Resumen</h2>
+            <!-- Aquí video de presentación -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/kbNdx0yqbZE?si=PZjvm5bv95rxyPPU"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <p>Breve descripción de tus habilidades y experiencia.</p>
         </section>
         <section id="experiencia">
             <h2>Experiencia</h2>
+            <ol>
+                <li>
+                    <strong>Mesera</strong> – Lina taquería<br>
+                    <em>Junio 2019 – Septiembre 2019</em><br>
+                    Atención al cliente, toma de pedidos, coordinación con cocina y manejo de caja.
+                </li>
+                <li>
+                    <strong>Asistente de Logística y Ventas</strong> – Ecuador Eco Adventure<br>
+                    <em>Diciembre 2019 – Febrero 2021</em><br>
+                    Venta de paquetes turísticos, atención a clientes internacionales, organización de itinerarios y
+                    coordinación logística de tours diarios.
+                </li>
+                <li>
+                    <strong>Intérprete Médico</strong> – Interpretia<br>
+                    <em>Marzo 2023 – Actualidad</em><br>
+                    Interpretación simultánea y consecutiva en citas médicas para pacientes de habla hispana.
+                </li>
+            </ol>
         </section>
         <section id="educacion">
             <h2>Educación</h2>
         </section>
-        <section id="habilidades">
-            <h2>Habilidades</h2>
-        </section>
         <section id="proyectos">
             <h2>Proyectos</h2>
+        </section>
+<section id="referencias">
+  <h2>Referencias</h2>
+
+  <blockquote>
+    “Siempre mostró una actitud profesional y excelente trato al cliente, incluso en los días más ocupados.”
+    <p>
+      <strong>Vinicio Gordillo</strong><br>
+      Gerente de Lina Taquería<br>
+      Trabajó como mesera bajo mi supervisión, demostrando responsabilidad, puntualidad y habilidades interpersonales destacadas.
+    </p>
+  </blockquote>
+  <blockquote>
+    “Organizada, eficiente y con un gran talento para conectar con los clientes nacionales e internacionales.”
+    <p>
+      <strong>Wladimir Ortiz</strong><br>
+      Gerente de Ecuador Eco Adventure<br>
+      Se desempeñó en el área de ventas y logística de paquetes turísticos, contribuyendo al crecimiento de las ventas y a la satisfacción del cliente.
+    </p>
+  </blockquote>
+
+  <blockquote>
+    “Su habilidad para interpretar con precisión y empatía es excelente.”
+    <p>
+      <strong>Santiago Clay</strong><br>
+      Trabajador en Interpretia<br>
+      Colaboró como intérprete médica en múltiples consultas de forma continua.
+    </p>
+  </blockquote>
+
+  
+
+</section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>
+                Puedes contactarme al siguiente correo electrónico:
+                <a href="mailto:ceelorti@espol.edu.ec">ceelorti@espol.edu.ec</a>
+                
+            </p>
+            <p>O llena el siguiente formulario con tu información:</p>
+            <!-- Aquí un formulario -->
+            <form action="/enviar" method="post">
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre"><br><br>
+
+                <label for="email">Correo electrónico:</label><br>
+                <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com"><br><br>
+
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..." rows="4"
+                    cols="30"></textarea><br><br>
+
+                <input type="submit" value="Enviar">
+            </form>
+            <h3> Mapa </h3>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15948.06066149371!2d-79.98259384458011!3d-2.1478802000000035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d72f925e5bfdb%3A0x327cdb9f7f4ba3b2!2sEscuela%20Superior%20Polit%C3%A9cnica%20del%20Litoral%20(ESPOL)!5e0!3m2!1ses-419!2sec!4v1747664467547!5m2!1ses-419!2sec"
+                width="350" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
     </main>
     <footer>
         <p>© Cecilia Ortiz - 2025</p>
         <ul>
-            <li><a href="https://www.linkedin.com/in/tunombre">LinkedIn</a></li>
-            <li><a href="https://github.com/tunombre">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/cecilia-ortiz-arriaga">LinkedIn</a></li>
+            <li><a href="https://github.com/cecilitaortiz">GitHub</a></li>
         </ul>
     </footer>
 </body>
